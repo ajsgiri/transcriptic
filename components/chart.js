@@ -19,12 +19,13 @@ class Chart extends React.Component{
   render(){
     var data = this.props.data;
     return <XYPlot
-      yDomain={[0, 5500]}  // optional
+      yDomain={[0, 5500]}  // optional configuration for visual settings
+      xDomain={[1, 42]}
       width={1400}
       height={600}>
-      {getLines(data)}
       <XAxis title={"Cycles"}/>
       <YAxis title={"Fluorescence"}/>
+      {getLines(data)}  // draw lines from data using a loop
     </XYPlot>;
   }
 }
