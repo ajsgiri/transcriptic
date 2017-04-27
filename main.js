@@ -5,10 +5,10 @@ import 'react-vis/dist/main.scss';
 
 class Main extends React.Component {
   render() {
-        var file = require('./qpcrGenData.json');
+        var json = require('./qpcrGenData.json');
         return (
           <div>
-            <Chart data={file}/>
+            <Chart data={json}/>
           </div>
         );
   }

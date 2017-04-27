@@ -23,9 +23,9 @@ class Chart extends React.Component{
       xDomain={[1, 42]}
       width={1400}
       height={600}>
+      {getLines(data)}
       <XAxis title={"Cycles"}/>
       <YAxis title={"Fluorescence"}/>
-      {getLines(data)}  // draw lines from data using a loop
     </XYPlot>;
   }
 }
