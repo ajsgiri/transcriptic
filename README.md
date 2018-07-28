@@ -1,11 +1,11 @@
-Coding challenge from Transcriptic
+# Coding challenge from Transcriptic
 
 # Objective
-Display data from a sample json file
+Display data from a sample json file <br />
 
-# General Approach Summary
-Demonstrated familiarity with React
-Parsed json data into the accepted format for charting tool, react-vis
+# General Approach Summary <br />
+Demonstrated familiarity with React <br />
+Parsed json data into the accepted format for charting tool, react-vis <br />
 
 # User Guide: <br />
   1. Download repository by pressing the clone or download drop down <br />
