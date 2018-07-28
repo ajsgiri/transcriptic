@@ -4,6 +4,7 @@ import {XYPlot, XAxis, YAxis, LineSeries} from 'react-vis';
 
 const getLines = (data) => {
   return Object.keys(data).map((id) => {
+    console.log(id);
     var dataSet = data[id].map((plot) => {
       return {
         x: plot.cycle,
