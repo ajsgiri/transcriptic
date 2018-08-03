@@ -1,5 +1,3 @@
-# Coding challenge from Transcriptic
-
 ## Challenge Objective
 Display data from a sample json file <br />
 
